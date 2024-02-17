@@ -18,6 +18,7 @@ class themes {
         titleLarge: TextStyle(fontSize: 20, color: Colors.black),
         titleMedium:
             TextStyle(fontSize: 19, color: Colors.black.withOpacity(0.9)),
+        titleSmall: TextStyle(color: Colors.black),
       ),
       floatingActionButtonTheme:
           FloatingActionButtonThemeData(backgroundColor: kPrimaryColor),
@@ -39,8 +40,11 @@ class themes {
             TextStyle(fontSize: 30, color: Colors.white, fontFamily: "MyFont"),
         labelMedium: TextStyle(fontSize: 23, color: Colors.white),
         titleLarge: TextStyle(fontSize: 22, color: Colors.black),
-        titleMedium:
-            TextStyle(fontSize: 19, color: Colors.black.withOpacity(0.7)),
+        titleMedium: TextStyle(
+          fontSize: 19,
+          color: Colors.black.withOpacity(0.7),
+        ),
+        titleSmall: TextStyle(color: Colors.white),
       ),
       iconTheme: IconThemeData(color: Colors.white));
 }
