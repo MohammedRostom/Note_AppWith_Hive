@@ -16,9 +16,9 @@
 <div style="display: flex; justify-content: space-evenly;">
 <img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/1.jpg"  width="180" height="400"/>
     &nbsp;
-<img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/2.jpg"  width="180" height="500"/>
+<img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/2.jpg"  width="180" height="400"/>
     &nbsp;
-<img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/3.jpg"  width="180" height="500"/>
+<img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/3.jpg"  width="180" height="400"/>
       &nbsp;
-<img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/4.jpg"  width="180" height="500"/>
+<img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/4.jpg"  width="180" height="400"/>
 </div>
