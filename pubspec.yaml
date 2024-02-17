@@ -83,7 +83,7 @@ flutter:
   fonts:
     - family: MyFont
       fonts:
-        - asset: Assets/lottie/fonts/myFont.ttf
+        - asset: Assets/fonts/myFont.ttf
 
   #   - family: Trajan Pro
   #     fonts:
