@@ -3,7 +3,7 @@
 
 <h1>Light Theme</h1>
 <div style="display: flex; justify-content: space-evenly;">
-<img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/5.jpg"  width="150" height="400"/>
+<img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/5.jpg"  width="200" height="400"/>
     &nbsp;
 <img src="https://github.com/MohammedRostom/Note_AppWith_Hive/blob/main/ScreenShots/6.jpg"  width="150" height="400"/>
     &nbsp;
