@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:note_app_with_cubit/core/Assets.dart';
+import 'package:note_app_with_cubit/core/constants.dart';
 
+import '../../features/feature/presentation/cubits/notes_cubit/notes_cubit.dart';
 import 'custom_icon.dart';
 
 class CustomAppBar extends StatelessWidget {
@@ -24,7 +26,15 @@ class CustomAppBar extends StatelessWidget {
       children: [
         Row(
           children: [
-            ledaing ? Lottie.asset(Asset_App.LogoIcon, width: 35) : Text(""),
+            ledaing
+                ? Icon(
+                    Icons.edit_attributes,
+                    color: NotesCubit.get(context).isdark
+                        ? kPrimaryColor
+                        : Colors.white,
+                    size: 60,
+                  )
+                : Text(""),
             Text(title, style: Theme.of(context).textTheme.labelLarge),
           ],
         ),
