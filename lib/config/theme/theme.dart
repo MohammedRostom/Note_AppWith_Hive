@@ -5,20 +5,22 @@ class themes {
   static final ThemeData LighTheme = ThemeData(
       colorScheme: ThemeData().colorScheme.copyWith(
           brightness: Brightness.light,
-          primaryContainer: Colors.grey.withOpacity(0.7),
+          primaryContainer: Colors.grey.withOpacity(0.3),
           secondaryContainer: kPrimaryColor),
       appBarTheme: AppBarTheme(
           backgroundColor: Colors.white,
           elevation: 0,
-          iconTheme: IconThemeData(color: Colors.black)),
+          iconTheme: IconThemeData(color: kPrimaryColor)),
       textTheme: TextTheme(
-        labelLarge: TextStyle(fontSize: 25, color: Colors.black),
+        labelLarge:
+            TextStyle(fontSize: 30, color: kPrimaryColor, fontFamily: "MyFont"),
+        labelMedium: TextStyle(fontSize: 23, color: kPrimaryColor),
         titleLarge: TextStyle(fontSize: 20, color: Colors.black),
         titleMedium:
-            TextStyle(fontSize: 20, color: Colors.black.withOpacity(0.9)),
+            TextStyle(fontSize: 19, color: Colors.black.withOpacity(0.9)),
       ),
       floatingActionButtonTheme:
-          FloatingActionButtonThemeData(backgroundColor: Colors.black),
+          FloatingActionButtonThemeData(backgroundColor: kPrimaryColor),
       iconTheme: IconThemeData(color: Colors.white));
 
   static final ThemeData DarkTheme = ThemeData(
@@ -33,10 +35,12 @@ class themes {
           primaryContainer: Colors.grey.withOpacity(0.4),
           secondaryContainer: kPrimaryColor),
       textTheme: TextTheme(
-        labelLarge: TextStyle(fontSize: 25),
-        titleLarge: TextStyle(fontSize: 20, color: Colors.black),
+        labelLarge:
+            TextStyle(fontSize: 30, color: Colors.white, fontFamily: "MyFont"),
+        labelMedium: TextStyle(fontSize: 23, color: Colors.white),
+        titleLarge: TextStyle(fontSize: 22, color: Colors.black),
         titleMedium:
-            TextStyle(fontSize: 20, color: Colors.black.withOpacity(0.7)),
+            TextStyle(fontSize: 19, color: Colors.black.withOpacity(0.7)),
       ),
-      iconTheme: IconThemeData(color: Colors.black));
+      iconTheme: IconThemeData(color: Colors.white));
 }

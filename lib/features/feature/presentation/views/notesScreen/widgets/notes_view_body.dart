@@ -31,6 +31,7 @@ class _NotesViewBodyState extends State<NotesViewBody> {
             // TODO: implement listener
           }, builder: (context, state) {
             return CustomAppBar(
+              ledaing: true,
               title: 'Notes',
               icon: NotesCubit.get(context).isdark
                   ? Icons.dark_mode_outlined

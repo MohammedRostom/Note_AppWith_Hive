@@ -27,6 +27,7 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
             height: 50,
           ),
           CustomAppBar(
+            ledaing: false,
             onPressed: () {
               widget.note.title = title ?? widget.note.title;
               widget.note.subTitle = content ?? widget.note.subTitle;
