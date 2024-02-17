@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:note_app_with_cubit/core/constants.dart';
 
-import '../../features/feature/presentation/cubits/notes_cubit/notes_cubit.dart';
-
 class CustomTextField extends StatelessWidget {
   const CustomTextField(
       {super.key,
@@ -35,7 +33,7 @@ class CustomTextField extends StatelessWidget {
       decoration: InputDecoration(
         hintText: hint,
         border: buildBorder(),
-        enabledBorder: buildBorder(),
+        enabledBorder: buildBorder(kPrimaryColor.withOpacity(0.4)),
         focusedBorder: buildBorder(kPrimaryColor),
       ),
     );
@@ -47,7 +45,7 @@ class CustomTextField extends StatelessWidget {
           8,
         ),
         borderSide: BorderSide(
-          color: color ?? NotesCubit().isdark ? kPrimaryColor : Colors.white,
+          color: color ?? Colors.white,
         ));
   }
 }
